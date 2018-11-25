@@ -11,8 +11,12 @@
 # It's strongly recommended that you check this file into your version control system.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 2018_11_25_145618) do
 =======
+=======
+ActiveRecord::Schema.define(version: 2018_11_25_140751) do
+>>>>>>> parent of 2388477... Install lines-engine
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -33,3 +37,7 @@ ActiveRecord::Schema.define(version: 2018_11_25_145618) do
   end
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+end
+>>>>>>> parent of 2388477... Install lines-engine
