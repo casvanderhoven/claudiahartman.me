@@ -48,6 +48,7 @@ end
 
 gem "suspenders", group: [:development, :test]
 
+gem 'clearance'
 gem 'high_voltage'
 gem 'bourbon', '~> 5.0'
 gem 'neat', '~> 2.1'

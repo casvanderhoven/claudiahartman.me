@@ -2,8 +2,10 @@
   <div class="default-neat-grid">
 <div class="grid-column-8">
   <h1><%= link_to post.title, post %></h1>
+  <% if signed_in? %>
         <%= button_to 'Edit', edit_post_path(post), method: :get %>
         <%= button_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %>
+        <% end %>
         <%= link_to post do %>
         <p><%= truncate(post.body, :length => 400) %> </p>
       <% end %>
