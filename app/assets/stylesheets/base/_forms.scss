@@ -29,6 +29,10 @@ textarea {
   font-size: 16px;
 }
 
+textarea {
+  min-height: 200px;
+}
+
 #{$all-text-inputs} {
   appearance: none;
   background-color: $_form-background-color;

@@ -13,6 +13,7 @@ $small-spacing: $base-spacing / 2;
 $base-z-index: 0;
 
 // Colors
+$purple: rgb(151,90,137);
 $blue: #1565c0;
 $dark-gray: #333;
 $medium-gray: #999;
@@ -20,14 +21,14 @@ $light-gray: #ddd;
 
 // Font Colors
 $base-font-color: $dark-gray;
-$action-color: $blue;
+$action-color: $purple;
 
 // Border
 $base-border-color: $light-gray;
 $base-border: 1px solid $base-border-color;
 
 // Background Colors
-$viewport-background-color: #fff;
+$viewport-background-color: rgb(255,235,234);
 
 // Focus
 $focus-outline-color: transparentize($action-color, 0.4);

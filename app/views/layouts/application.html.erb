@@ -12,10 +12,15 @@
   <%= stylesheet_link_tag :application, media: "all" %>
   <%= csrf_meta_tags %>
 </head>
-<body>
+<body class="default-neat-grid">
   <%= render "flashes" -%>
+  <div class="grid-left">
   <%= yield %>
+  </div>
   <%= render "javascript" %>
   <%= render "css_overrides" %>
+  <div class="grid-right">
+  <%= render "sidebar" %>
+  </div>
 </body>
 </html>
