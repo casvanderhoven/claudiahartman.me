@@ -97,7 +97,7 @@ ActiveRecord::Schema.define(version: 2018_11_25_204017) do
     t.text "body"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.text "category"
+    t.string "category"
   end
 
   create_table "taggings", force: :cascade do |t|
