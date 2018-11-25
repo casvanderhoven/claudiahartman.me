@@ -1,0 +1,5 @@
+<% Category.all.each do |category| %>
+  <h3 class="italics">
+      <%= link_to category.name, posts_path(category: category.name) %>
+        </h3>
+      <% end %>
